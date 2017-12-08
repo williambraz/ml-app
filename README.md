@@ -1,7 +1,8 @@
 ML APP
 ==================
 
-ML APP é uma aplicação de busca desenvolvida com React + Webpack + Node (Express) + SASS
+ML APP é uma aplicação de busca desenvolvida com React + Webpack + Node (Express) + SASS.
+
 A aplicação consiste em dois pacotes separados, um para frontend, um de backend.
 
 Para rodar o APP no modo de server local:
