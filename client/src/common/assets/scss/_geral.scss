@@ -1,0 +1,48 @@
+body{  
+    background-color: $bg-color;
+    color: $font-color;
+    font: 1em Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    div.container{
+        width: 100%;
+        max-width: 800px;
+        height: 100%;
+        overflow: hidden;
+        text-align: center;
+        margin: 0 auto;
+        section.main{
+            margin-top: $header-height;
+            text-align: left;
+            padding-bottom: 20px;
+            div.relacionados{
+                text-align: left;
+                color: #999;
+                padding: 10px 0px 15px;
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: $link-color;
+    &:hover{
+        color: $link-hover-color;
+    }
+}
+
+textarea, input, button { 
+    outline: none; 
+}
+
+@media screen and (max-width: 800px){
+    body{  
+        div.container{
+            section.main{
+                text-align: center;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
