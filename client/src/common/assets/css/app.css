@@ -172,9 +172,12 @@ header {
 .detalhe > div.produto {
   background-color: white;
   padding: 20px; }
-  .detalhe > div.produto img {
+  .detalhe > div.produto div.capa {
     float: left;
     width: 50%; }
+    .detalhe > div.produto div.capa img {
+      max-width: 100%;
+      height: auto; }
   .detalhe > div.produto div.info {
     float: left;
     width: 50%; }
@@ -210,7 +213,7 @@ header {
   .detalhe > div.produto {
     background-color: white;
     padding: 20px; }
-    .detalhe > div.produto img {
+    .detalhe > div.produto div.capa {
       float: none;
       width: inherit;
       text-align: center;

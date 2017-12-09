@@ -32,7 +32,9 @@ export default class Detalhe extends React.Component {
         const info = this.props.info     
         return (
             <div className='produto'>
-                <img src={info.pictures[0].url}/>
+                <div className='capa'>
+                    <img src={info.pictures[0].url}/>
+                </div>
                 <div className='info'>
                     <div>
                         <h2>{info.title}</h2>

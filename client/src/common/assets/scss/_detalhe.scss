@@ -2,9 +2,13 @@
     >div.produto{
         background-color: white;
         padding: 20px;
-        img{
+        div.capa{
             float: left;
             width: 50%;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
         }
         div.info{
             float: left;
@@ -51,7 +55,7 @@
         >div.produto{
             background-color: white;
             padding: 20px;
-            img{
+            div.capa{
                 float: none;
                 width: inherit;
                 text-align: center;
