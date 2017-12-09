@@ -41,7 +41,7 @@ body {
   font: 1em Helvetica Neue,Helvetica,Roboto,Arial,sans-serif; }
   body div.container {
     width: 100%;
-    max-width: 800px;
+    max-width: 1400px;
     height: 100%;
     overflow: hidden;
     text-align: center;
@@ -64,6 +64,9 @@ a {
 textarea, input, button {
   outline: none; }
 
+@media screen and (max-width: 1500px) {
+  body div.container {
+    max-width: 800px; } }
 @media screen and (max-width: 800px) {
   body div.container section.main {
     text-align: center;
@@ -77,13 +80,13 @@ header {
   width: 100%;
   height: 54px; }
   header > div.headerContainer {
-    max-width: 800px;
+    max-width: 1400px;
     margin: 0 auto; }
     header > div.headerContainer form {
       float: left;
       margin-left: 10px;
       width: 100%;
-      max-width: 600px;
+      max-width: 1230px;
       text-align: left;
       margin-top: 10px;
       position: relative; }
@@ -97,7 +100,7 @@ header {
         border-radius: 3px;
         border: 1px solid grey;
         width: 100%;
-        max-width: 550px; }
+        max-width: 1180px; }
       header > div.headerContainer form button {
         position: absolute;
         height: 37px;
@@ -109,6 +112,13 @@ header {
       margin-top: 4px;
       float: left; }
 
+@media screen and (max-width: 1500px) {
+  header > div.headerContainer {
+    max-width: 800px; }
+    header > div.headerContainer form {
+      max-width: 630px; }
+      header > div.headerContainer form input {
+        max-width: 558px; } }
 @media screen and (max-width: 800px) {
   header > div.headerContainer form {
     max-width: 300px; }

@@ -4,7 +4,7 @@ body{
     font: 1em Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     div.container{
         width: 100%;
-        max-width: 800px;
+        max-width: $container-lg-width;
         height: 100%;
         overflow: hidden;
         text-align: center;
@@ -34,6 +34,14 @@ textarea, input, button {
     outline: none; 
 }
 
+@media screen and (max-width: 1500px){
+    body{  
+        div.container{
+            max-width: $container-width
+        }
+    }
+}
+
 @media screen and (max-width: 800px){
     body{  
         div.container{
@@ -45,4 +53,5 @@ textarea, input, button {
         }
     }
 }
+
 
