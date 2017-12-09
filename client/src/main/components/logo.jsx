@@ -5,7 +5,7 @@ import imgLogo from 'common/assets/imgs/logo.png'
 export default props => (
         
     <Link to='/'>
-        <img src={imgLogo}/>
+        <img src={imgLogo} alt="Mercado Livre"/>
     </Link>
     
 ) 
